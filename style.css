@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    height: 700px;
+    background-color: rgba(0,0, 0);
+    border: 3px solid rgba(10, 20, 1);
+    align-items: center;
+    margin: 10px auto;
+    perspective: 300px;
+}
+.light{
+    width: 200px;
+    height:500px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#red{
+    background-color: red;
+    border: 5px solid rgb(200, 0, 0);
+    filter: blur(30px);
+}
+#green{
+    background-color: rgba(50, 225,50);
+    border: 5px solid rgb(0, 200, 0);
+    filter: blur(30px);
+}
+#yello{
+    background-color: yellow;
+    border: 5px solid rgb(200, 200, 0);
+    filter: blur(30px);
+}
